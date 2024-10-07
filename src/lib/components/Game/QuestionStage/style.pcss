@@ -1,0 +1,25 @@
+.QuestionStage-DogBreedDescriptionText {
+    width: 60%;
+    height: 26rem;
+    overflow: auto;
+    margin: auto;
+    padding: calc(var(--spacing) * 2);
+    box-shadow: var(--box-shadow-elavation-1);
+    background: var(--color-bg-3);
+    border-radius: 8px;
+}
+
+.QuestionStage-DogBreedDescriptionList {
+    display: flex;
+    gap: calc(var(--spacing) * 2);
+
+    dt {
+        font-weight: bold;
+        &:not(:first-child) {
+            margin-top: var(--spacing);
+        }
+    }
+}
+.QuestionStage-DogBreedDescriptionList-Col {
+    flex: 1;
+}
